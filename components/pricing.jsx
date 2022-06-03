@@ -3,7 +3,7 @@ import { Box, Button, Flex, SimpleGrid, Stack, Text } from "@chakra-ui/react"
 const Pricing = () => {
     return(
         <>
-             <Box  px={{sm:'80px',md:'140px'}} textAlign='center' p={{base:'4px'}}>
+             <Box  px={{sm:'80px',md:'140px','2xl':'280px'}} textAlign='center' p={{base:'4px'}}>
                 <Text fontWeight='600' fontSize='12px' color='#2858FF' fontFamily='Poppins'>Pricing</Text>
                 <Text my='8px' fontFamily='League Spartan' fontWeight='700' fontSize={{base:'26px',md:'36px'}}>You can take a look at the pricing table based on the work I do.</Text>
                 <Text fontFamily='Poppins' fontSize={{base:'14px',md:'18px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non.</Text>
@@ -62,7 +62,7 @@ const Pricing = () => {
                     <Box p={{base:'30px',md:'65px',lg:'20px'}} width={{md:'380px',lg:'280px'}} ml={{md:'32px'}} boxShadow='lg' borderRadius='10px' bgColor='#FFD748'>
                         <Text fontFamily='Poppins' fontWeight='500' fontSize='14px'>SKETCH to HTML</Text>
                         <Flex my='8px' alignItems='center'>
-                            <Text fontWeight='700' fontSize='36px' fontFamily='Poppins'>350k</Text>
+                            <Text fontWeight='700' fontSize='36px' fontFamily='Poppins'>500K</Text>
                             <Text fontSize='14px' fontFamily='Poppins' ml='12px' color='#8A8A8A'>/ Per Page</Text>
                         </Flex>
                         <Text fontSize='14px' fontFamily='Poppins' color='#8B8B8B'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>

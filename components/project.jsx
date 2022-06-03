@@ -3,7 +3,7 @@ import { Box, Flex, Image, Stack, Text } from "@chakra-ui/react"
 const Project = () => {
     return(
         <>
-            <Box  px={{sm:'80px',md:'140px'}} textAlign='center' p={{base:'4px'}}>
+            <Box  px={{sm:'80px',md:'140px','2xl':'280px'}} textAlign='center' p={{base:'4px'}}>
                 <Text fontWeight='600' fontSize='12px' color='#2858FF' fontFamily='Poppins'>My Project</Text>
                 <Text my='8px' fontFamily='League Spartan' fontWeight='700' fontSize={{base:'26px',md:'36px'}}>You can check out a few of my projects below.</Text>
                 <Text fontFamily='Poppins' fontSize={{base:'14px',md:'18px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non.</Text>
