@@ -2,8 +2,8 @@ import { Box, Button, Flex, Image, SimpleGrid, Stack, Text } from "@chakra-ui/re
 
 const Hero = () => {
     return(
-        <SimpleGrid columns={2} spacing={20}>
-            <Box pt='30px' pl={{base:'12px',md:'35px',lg:'34px',xl:'200px'}} width={{base:'240px',md:'364px',xl:'550px'}} ml={{base:'36px'}}>
+        <SimpleGrid columns={{base:2,md:2}} spacing={20}>
+            <Box pt='30px' pl={{base:'4px',md:'35px',lg:'34px',xl:'200px'}} width={{base:'240px',md:'364px',xl:'550px','2xl':'100%'}} ml={{base:'20px'}}>
                 <Flex justifyContent='space-between' direction={{base:'column',md:'row'}}>
                     <Stack direction='row'>
                         <svg width="20" height={{base:"8",md:"20"}} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@ const Hero = () => {
                         Contact Me
                 </Button>
             </Box>
-            <Box backgroundImage={{md:'/yjr.jpg'}} backgroundRepeat='no-repeat' backgroundPosition='center' borderRadius='0px 0px 0px 200px' position='relative' />
+            <Box backgroundImage={{base:'yjr.jpg',md:'/yjr.jpg'}} backgroundSize={{base:'cover'}} mt={{base:'10px',md:'0px','2xl':'0px'}} h={{base:'122px',md:'auto','2xl':'660px'}} backgroundRepeat='no-repeat' backgroundPosition='center' borderRadius={{base:'50%',md:'0px 0px 0px 200px' }}position='relative' />
         </SimpleGrid>
     )
 }
