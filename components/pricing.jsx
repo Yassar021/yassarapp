@@ -3,10 +3,10 @@ import { Box, Button, Flex, SimpleGrid, Stack, Text } from "@chakra-ui/react"
 const Pricing = () => {
     return(
         <>
-             <Box  px={{sm:'80px',md:'140px','2xl':'280px'}} textAlign='center' p={{base:'4px'}}>
+            <Box  px={{sm:'80px',md:'140px','2xl':'280px'}} textAlign='center' p={{base:'4px'}}>
                 <Text fontWeight='600' fontSize='12px' color='#2858FF' fontFamily='Poppins'>Pricing</Text>
                 <Text my='8px' fontFamily='League Spartan' fontWeight='700' fontSize={{base:'26px',md:'36px'}}>You can take a look at the pricing table based on the work I do.</Text>
-                <Text fontFamily='Poppins' fontSize={{base:'14px',md:'18px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non.</Text>
+                {/* <Text fontFamily='Poppins' fontSize={{base:'14px',md:'18px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non.</Text> */}
             </Box>
 
             <Box px={{md:'164px',lg:'76px',xl:'240px','2xl':'480px'}} pt='48px' p={{base:'4px'}} pb='98px' alignContent='center'>

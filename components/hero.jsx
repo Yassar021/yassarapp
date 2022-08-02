@@ -1,8 +1,8 @@
-import { Box, Button, Flex, Image, SimpleGrid, Stack, Text } from "@chakra-ui/react"
+import { Box, Button, Flex, Image, Link, SimpleGrid, Stack, Text } from "@chakra-ui/react"
 
 const Hero = () => {
     return(
-        <SimpleGrid columns={{base:2,md:2}} spacing={20}>
+        <SimpleGrid columns={{base:1,md:2}} spacing={20}>
             <Box pt='30px' pl={{base:'4px',md:'35px',lg:'34px',xl:'200px'}} width={{base:'240px',md:'364px',xl:'550px','2xl':'100%'}} ml={{base:'20px'}}>
                 <Flex justifyContent='space-between' direction={{base:'column',md:'row'}}>
                     <Stack direction='row'>
@@ -26,18 +26,25 @@ const Hero = () => {
                 </Box>
                 <Text color='#331E6A' mt='30px' mb='20px' fontSize={{base:'14px',md:'18px'}} fontFamily='Poppins'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                      Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non. </Text>
-                <Button
-                    size='md'
-                    height='44px'
-                    width={{base:'120px',md:'138px'}}
-                    border='2px'
-                    color='#fff'
-                    backgroundColor= '#2F2F2F'
-                    >
-                        Contact Me
-                </Button>
+                <Link href="https://wa.me/62895803576407">
+                    <Button
+                        size='md'
+                        height='44px'
+                        width={{base:'120px',md:'138px'}}
+                        border='2px solid #2F2F2F'
+                        color='#fff'
+                        backgroundColor= '#2F2F2F'
+                        _hover={{ bg: '#2F2F2F' }}
+                        _active={{
+                            bg: '#2F2F2F',
+                            transform: 'scale(0.98)',
+                        }}
+                        >
+                            Contact Me
+                    </Button>
+                </Link>
             </Box>
-            <Box backgroundImage={{base:'yjr.jpg',md:'/yjr.jpg'}} backgroundSize={{base:'cover'}} mt={{base:'10px',md:'0px','2xl':'0px'}} h={{base:'122px',md:'auto','2xl':'660px'}} backgroundRepeat='no-repeat' backgroundPosition='center' borderRadius={{base:'50%',md:'0px 0px 0px 200px' }}position='relative' />
+            <Box display={{base:'none', md: 'grid'}} backgroundImage={{base:'yjr.jpg',md:'/yjr.jpg'}} backgroundSize={{base:'cover'}} mt={{base:'10px',md:'0px','2xl':'0px'}} h={{base:'200px',md:'auto','2xl':'660px'}} backgroundRepeat='no-repeat' backgroundPosition='center' borderRadius={{base:'0px',md:'0px 0px 0px 200px' }}position='relative' />
         </SimpleGrid>
     )
 }
