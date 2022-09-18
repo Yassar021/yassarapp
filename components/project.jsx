@@ -26,11 +26,10 @@ const Project = () => {
                 </Flex>
 
                 <Flex my='40px'  direction={{base:"column", md:"row"}}>
-                    <Image src="/project2.png" width={{base:'100%',md:'160px',lg:'160px'}} alt="" />
+                    <Image src="/kedai-kilometer.png" width={{base:'100%',md:'160px',lg:'160px'}} alt="" />
                     <Stack ml='20px'>
-                        <Text fontFamily='Poppins' fontWeight='700' fontSize='18px' color='#291854' mt={{base:'20px'}}>Project Name</Text>
-                        <Text fontFamily='Inter' fontSize='14px' color='#55206D'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non. Fusce fringilla, sem sit amet egestas sagittis, lorem nisi aliquam metus, vitae porta ligula enim in nisl. 
-                            Quisque at erat semper, scelerisque tortor id, pretium tellus. </Text>
+                        <Text fontFamily='Poppins' fontWeight='700' fontSize='18px' color='#291854' mt={{base:'20px'}}>Kedai Booking Menus App</Text>
+                        <Text fontFamily='Inter' fontSize='14px' color='#55206D'>Kedai Kilometer App is Booking App for Coffee Shop we are using Next JS and Laravel.</Text>
                         
                         <Stack direction='row' alignItems='center'>
                             <Text fontFamily='inter' fontSize='14px' fontWeight='500'>Project Link</Text>
