@@ -19,12 +19,12 @@ const Whatido = () => {
                     <Box boxShadow='lg' width={{lg:'280px',xl:'320px'}} my={{base:'20px', md:'0px', lg:'0px', '2xl':'0'}} backgroundColor='white' borderRadius='10px' p='20px'>
                         <Text fontFamily='Poppins' fontWeight='600' fontSize='18px'>Front-end Development</Text>
                         <Text mt='8px' fontSize='16px' fontFamily='Inter'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non. 
-                            Fusce fringilla, sem sit amet egestas sagittis, lorem nisi aliquam metus, vitae porta ligula enim in nisl. <br/><br/> Tech Stack : <b>Next JS, Redux, Node JS</b></Text>
+                            Fusce fringilla, sem sit amet egestas sagittis, lorem nisi aliquam metus, vitae porta ligula enim in nisl. <br/><br/> Tech Stack : <b>React JS, Next JS</b></Text>
                     </Box>
                     <Box boxShadow='lg' width={{lg:'280px',xl:'320px'}} backgroundColor='white' borderRadius='10px' p='20px'>
                         <Text fontFamily='Poppins' fontWeight='600' fontSize='18px'>UI/UX Design</Text>
                         <Text mt='8px' fontSize='16px' fontFamily='Inter'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus turpis ligula, pellentesque a elit in, convallis laoreet metus. Sed aliquet lacinia dictum. In pharetra nunc nisi, ac aliquet est pretium non. 
-                            Fusce fringilla, sem sit amet egestas sagittis, lorem nisi aliquam metus, vitae porta ligula enim in nisl.<br/><br/> Tools : <b>Adobe XD, Figma, Maze</b></Text>
+                            Fusce fringilla, sem sit amet egestas sagittis, lorem nisi aliquam metus, vitae porta ligula enim in nisl.<br/><br/> Tools : <b>Adobe XD, Figma</b></Text>
                     </Box>
                 </SimpleGrid>
             </Box>
