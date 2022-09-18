@@ -32,7 +32,7 @@ const Project = () => {
                         <Text fontFamily='Inter' fontSize='14px' color='#55206D'>Kedai Kilometer App is Booking App for Coffee Shop we are using Next JS and Laravel.</Text>
                         
                         <Stack direction='row' alignItems='center'>
-                            <Text fontFamily='inter' fontSize='14px' fontWeight='500'>Project Link</Text>
+                            <Text fontFamily='inter' fontSize='14px' fontWeight='500'><Link href="https://kedai-app.vercel.app">Project Link</Link></Text>
                             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path fillRule="evenodd" clipRule="evenodd" d="M7.20509 3.70507C7.33636 3.57384 7.51437 3.50012 7.69999 3.50012C7.8856 3.50012 8.06362 3.57384 8.19489 3.70507L10.9949 6.50507C11.1261 6.63634 11.1998 6.81436 11.1998 6.99997C11.1998 7.18559 11.1261 7.3636 10.9949 7.49487L8.19489 10.2949C8.06287 10.4224 7.88605 10.4929 7.70251 10.4913C7.51897 10.4897 7.3434 10.4161 7.21361 10.2863C7.08383 10.1566 7.01021 9.98099 7.00862 9.79745C7.00702 9.61392 7.07758 9.43709 7.20509 9.30507L8.81019 7.69997H3.49999C3.31434 7.69997 3.13629 7.62622 3.00501 7.49495C2.87374 7.36367 2.79999 7.18562 2.79999 6.99997C2.79999 6.81432 2.87374 6.63627 3.00501 6.505C3.13629 6.37372 3.31434 6.29997 3.49999 6.29997H8.81019L7.20509 4.69487C7.07386 4.5636 7.00014 4.38559 7.00014 4.19997C7.00014 4.01436 7.07386 3.83634 7.20509 3.70507Z" fill="#6A87A3"/>
                             </svg>
